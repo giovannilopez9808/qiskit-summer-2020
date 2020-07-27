@@ -68,7 +68,6 @@ for measured_value in counts:
 for measured_value in counts:
     measured_value_decimal = int(measured_value[::-1], 2)
     print(f"Measured {measured_value_decimal}")
-    
     if measured_value_decimal % 2 != 0:
         print("Failed. Measured value is not an even number")
         continue
